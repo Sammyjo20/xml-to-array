@@ -1,4 +1,4 @@
-# Convert XML to an array
+# Convert XML into an array
 
 [![Build Status](https://github.com/sammyjo20/xml-to-array/workflows/tests/badge.svg)](https://github.com/sammyjo20/xml-to-array/actions)
 
