@@ -17,7 +17,7 @@ composer require sammyjo20/xml-to-array
 ## Usage
 
 ```php
-use Vyuldashev\XmlToArray\XmlToArray;
+use Sammyjo20\XmlToArray\XmlToArray;
 
 $xml = '<items>
     <good_guy>
