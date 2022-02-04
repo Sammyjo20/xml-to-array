@@ -1,0 +1,45 @@
+{
+    "name": "sammyjo20/xml-to-array",
+    "description": "Convert an XML string into a easy to understand array",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sammyjo20\\XmlToArray\\": "src/",
+            "Sammyjo20\\XmlToArray\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sammyjo20",
+            "email": "29132017+Sammyjo20@users.noreply.github.com"
+        },
+        {
+            "name": "Vladimir Yuldashev",
+            "email": "misterio92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "pestphp/pest": "^1.21",
+        "spatie/array-to-xml": "^3.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/pest"
+        ],
+        "fix-code": [
+            "./vendor/bin/php-cs-fixer fix"
+        ]
+    }
+}
