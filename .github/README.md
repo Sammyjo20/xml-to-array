@@ -34,7 +34,7 @@ $xml = '<items>
 
 $result = XmlToArray::convert($xml);
 ```
-After running this piece of code `$result` will contain:
+## Result
 
 ```php
 array:1 [
