@@ -1,6 +1,6 @@
 {
     "name": "sammyjo20/xml-to-array",
-    "description": "Convert an XML string into a easy to understand array",
+    "description": "Convert an XML string into an easy to understand array",
     "type": "library",
     "license": "MIT",
     "autoload": {
